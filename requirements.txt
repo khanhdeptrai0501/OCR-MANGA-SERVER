@@ -1,0 +1,20 @@
+# Các thư viện cơ bản
+numpy>=1.26.0,<2.0.0  # Phiên bản tương thích với Python 3.12
+opencv-python>=4.8.0  # OpenCV cho xử lý hình ảnh
+flask>=2.0.0          # Web framework
+wget>=3.2             # Thư viện tải file
+
+# Các thư viện OCR và xử lý hình ảnh
+torch>=2.0.0          # PyTorch cho các mô hình deep learning
+largestinteriorrectangle>=0.2.0  # Xử lý hình học
+doctr-pytorch>=0.6.0  # Thư viện OCR (nếu sử dụng)
+
+# Các thư viện hỗ trợ
+Pillow>=10.0.0        # Xử lý hình ảnh
+scikit-image>=0.20.0  # Xử lý hình ảnh nâng cao
+matplotlib>=3.7.0     # Hiển thị hình ảnh (nếu cần)
+pyyaml>=6.0           # Xử lý cấu hình
+
+# Các thư viện tùy chọn (tùy thuộc vào tính năng sử dụng)
+transformers>=4.30.0  # Cho các mô hình NLP (nếu cần)
+huggingface-hub>=0.16.0  # Tải mô hình từ HuggingFace (nếu cần)
